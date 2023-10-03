@@ -33,11 +33,11 @@ public class Fabricante{
     }
 
     public String getNombre(){
-        return this.nombre;
+        return nombre;
     }
 
     public Pais getPais(){
-        return this.pais;
+        return pais;
     }
 
     public void setPais(Pais pais){

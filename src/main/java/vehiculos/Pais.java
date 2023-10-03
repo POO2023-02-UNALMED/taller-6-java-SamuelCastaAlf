@@ -26,7 +26,7 @@ public class Pais{
         return p;
     }
     public String getNombre(){
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre){
