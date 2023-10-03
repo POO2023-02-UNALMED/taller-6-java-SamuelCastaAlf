@@ -52,8 +52,8 @@ public class Vehiculo{
         return velocidadMaxima;
     }
 
-    public void setVelocidadMaxima(int velocidad_maxima){
-        this.velocidadMaxima = velocidad_maxima;
+    public void setVelocidadMaxima(int velocidadMaxima){
+        this.velocidadMaxima = velocidadMaxima;
     }
 
     public String getNombre(){
@@ -99,5 +99,7 @@ public class Vehiculo{
     public Fabricante getFabricante(){
         return fabricante;
     }
-
+	public void setFabricante(Fabricante fabricante){
+		this.fabricante = fabricante;
+	}
 }

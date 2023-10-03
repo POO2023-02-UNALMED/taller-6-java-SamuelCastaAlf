@@ -25,4 +25,8 @@ public class Automovil extends Vehiculo{
     public static int getCountAutos(){
         return countAutos;
     }
+
+    public static void setCountAutos(int countAutos){
+		Automovil.countAutos = countAutos;
+	}
 }
